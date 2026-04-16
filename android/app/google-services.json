@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "922412940403",
+    "firebase_url": "https://streaming-demo-app-default-rtdb.firebaseio.com",
+    "project_id": "streaming-demo-app",
+    "storage_bucket": "streaming-demo-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922412940403:android:295da3dc57b2f1afbb7e06",
+        "android_client_info": {
+          "package_name": "com.streaming_demo.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCce4gPZqXnN8GzTZsefeayLnJQye8DaFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

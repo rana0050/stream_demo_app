@@ -1,0 +1,101 @@
+name: streaming_demo_app
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_screenutil: ^5.9.3
+  cached_network_image: ^3.3.1
+  flutter_spinkit: ^5.2.1
+  dio: ^5.8.0+1
+  pretty_dio_logger: ^1.4.0
+  shared_preferences: ^2.5.3
+  webview_flutter: ^4.13.0
+  permission_handler: ^12.0.1
+  intl: ^0.20.2
+  path: any
+  device_info_plus: ^11.5.0
+  flutter_local_notifications: ^17.2.4
+  app_version_update: ^6.1.0
+  package_info_plus: ^8.3.0
+  # connectivity_plus: ^6.1.5
+  firebase_core: ^3.15.1
+  firebase_messaging: ^15.2.9
+  firebase_database: ^11.3.9
+  firebase_crashlytics: ^4.3.10
+  url_launcher: any
+  fluttertoast: ^9.0.0
+  livekit_client: ^2.4.1
+  video_player: ^2.9.3
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icons/fulltossIcon.png"
+
+  ## dart run flutter_launcher_icons
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/icons/fulltossIcon.png
+
+  android_12:
+    image: assets/icons/fulltossIcon.png
+    icon_background_color: "#FFFFFF"
+
+  android: true
+  ios: true
+
+  ## dart run flutter_native_splash:create
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/videos/
+    - assets/icons/
+    - assets/gif/
+    - assets/audio/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter/Inter-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Inter/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter/Inter-Bold.ttf
+          weight: 700
+
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Roboto/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Roboto/Roboto-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Roboto/Roboto-Bold.ttf
+          weight: 700
