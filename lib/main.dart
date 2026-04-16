@@ -45,7 +45,7 @@ void main() async {
         debugPrint("FCM Token: $fcmToken");
       }
 
-      // Run the app
+      // Run the app AIzaSyCce4gPZqXnN8GzTZsefeayLnJQye8DaFY
       runApp(MyApp());
     },
     (error, stack) {

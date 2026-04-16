@@ -19,7 +19,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCce4gPZqXnN8GzTZsefeayLnJQye8DaFY',
+    apiKey: '',
     appId: '1:922412940403:android:295da3dc57b2f1afbb7e06',
     messagingSenderId: '922412940403',
     projectId: 'streaming-demo-app',
